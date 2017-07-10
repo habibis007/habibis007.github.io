@@ -1,0 +1,96 @@
+.title{
+    color: brown;
+}
+.toolbar-items {
+    float: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: #555;
+    font-size: 12px;
+    line-height: 1.8em;
+    list-style: none;
+    
+}
+
+.toolbar-social{
+    float: right;
+    margin: 0;
+    padding: 1px solid;
+    font-size: 12px;
+    line-height: 1.8em;
+    
+}
+
+#page-toolbar{
+    border-bottom: 1px solid #E7E7E7;
+    color: #555;
+    font-size: 12px;
+}
+
+#page-container{
+    background-color: #FFF;
+}
+
+body{
+    color: #161616;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    height: 100px;
+    text-shadow: 0 0 2px rgba(17,17,17,.1);
+    background-color: #fff
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    height: 44px;
+    margin: 0 auto;
+    padding-right: .9375rem;
+    padding-left: .9375rem;
+    box-sizing: inherit;
+    display: table;
+    content: " ";
+    clear: both;
+    max-width: 1140px;
+}
+
+.clearfix::after{
+    clear: both;
+    content: '\00a0';
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+.clearfix::after, .clearfix::before{
+    display: table;
+    content: " ";
+}
+.btn-
+toolbar::after, .clearfix::after, .container-fluid::after, .container::after, .dl-horizontal::after, .dropdown-item, .modal-footer::after, .modal-header::after, .nav-tabs::after, .navbar::after, .pager::after, .row::after{
+    clear: both;
+}
+
+
+.item{
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    margin: 0;
+}
+
+
+.inner{
+    display: inline-block;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: #555;
+    font-size: 12px;
+    font-family: sans-serif;
+}
